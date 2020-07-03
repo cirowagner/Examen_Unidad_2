@@ -114,13 +114,13 @@ public class ResolucionExamen{
 
 //4============================================================================================================================================
 
-public int ExponenteX(int num, int exp){ 
+public int EXPONENTES(int num, int exp){ 
 	int Resultado = 0;
 	
     if (exp <= 0){
         Resultado = 1;
 	}else{
-		Resultado = num*ExponenteX(num,(exp-1));
+		Resultado = num*EXPONENTES(num,(exp-1));
 	}
 	return Resultado;
   } 

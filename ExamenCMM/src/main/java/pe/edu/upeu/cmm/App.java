@@ -26,7 +26,7 @@ public class App{
 				"01= IMPUESTOS_POR_VEHICULOS\n"+
 				"02= TABLAS_DE_MULTIPLICACION\n"+
 				"03= NUMEROS_PERFECTOS\n"+
-				"04= ExponenteX"+ANSI_RESET);
+				"04= EXPONENTES"+ANSI_RESET);
 				
                 switch(NumAlgoritm){
                 case "01":
@@ -43,7 +43,7 @@ public class App{
 				case "04":
 				int num = teclado.leer(0,ANSI_RED+"Ingrese la base"+ANSI_RESET);
 				int exp = teclado.leer(0,ANSI_RED+"Ingrese el exponente"+ANSI_RESET);
-				System.out.println(ANSI_RED+"El resultado es: "+obj.ExponenteX(num,exp)+ANSI_RESET);
+				System.out.println(ANSI_RED+"El resultado es: "+obj.EXPONENTES(num,exp)+ANSI_RESET);
 				break;
                 default: System.out.println("La opcion No existe!!"); break;
                 }   
